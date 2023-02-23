@@ -1,69 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My GitHub Page</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #f2f2f2;
-        margin: 0;
-      }
-      #header {
-        background-color: #333;
-        color: #fff;
-        padding: 20px;
-      }
-      h1 {
-        margin: 0;
-        font-size: 36px;
-      }
-      #content {
-        max-width: 800px;
-        margin: 20px auto;
-        padding: 20px;
-        background-color: #fff;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-      }
-      ul {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-      }
-      li {
-        margin: 10px 0;
-      }
-      a {
-        color: #333;
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>My Landing Page</title>
   </head>
   <body>
     <div id="header">
-      <h1>Welcome to My GitHub Page</h1>
-    </div>
+      <div class="container">
+        <nav>
+          <a href="#">main</a>
+          <a href="#">bio</a>
+          <a href="#">resume</a>
+          <a href="#">portfolio</a>
+        </nav>        
+        <h1>Evgeniy Larin</h1>
+      </div>
+    </div>    
     <div id="content">
-      <p>This is a simple landing page for my GitHub account.</p>
-      <ul>
-        <li><a href="https://github.com/dosTequilas">My GitHub Profile</a></li>
-        <li><a href="https://github.com/dosTequilas/landing">My Repository</a></li>
-      </ul>
+      <div class="container">
+        <h2>About Me</h2>
+        <p>I am a web developer based in Moscow. I love building responsive web applications and exploring new technologies.</p>
+        <p>Education: Bachelor's degree in Economics </p>
+        <p>Experience: Project manager for the last 6 years</p>
+        <p>Skills: HTML, CSS, JavaScript, React, Node.js, etc.</p>
+        <a href="https://github.com/dostequilas/landing" class="button btn project-btn" target="_blank"><i class="fa fa-book"></i>Repo</a>
+        <a href="https://github.com/dostequilas" class="button btn github-btn" target="_blank"><i class="fa fa-github"></i>Github</a>
+      </div>
     </div>
-    <div id="resume">
-      <h2>My Resume</h2>
-      <p>Here's some information about me:</p>
-      <ul>
-        <li>Education: Bachelor's Degree in Economics</li>
-        <li>Experience: 2 years as a student in Hexlet school (Frontend Developer)</li>
-        <li>Skills: HTML, CSS, JavaScript, React, Node.js, etc.</li>
-      </ul>
-    </div>
-    <div id="picture">
-  <img src="images/myprofilepic.jpg" alt="My Profile Picture">
-   <div>Hello, i'm sosis :)<div>
-</div>
+    
   </body>
 </html>
